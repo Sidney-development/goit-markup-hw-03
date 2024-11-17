@@ -195,7 +195,7 @@ main{
 }
 
 
-header .logo{
+.logo{
 display: flex;
     align-items: center;
     justify-content: flex-start;
