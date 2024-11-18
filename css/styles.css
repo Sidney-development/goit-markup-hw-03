@@ -114,6 +114,12 @@ padding: 120px 0;
 
 .footer{
 background: #2e2f42;
+padding: 100px 0;
+}
+
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text{
@@ -260,10 +266,11 @@ border-radius: 0 0 4px 4px;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
+    row-gap: 48px;
 }
 
 .portfolio-set-item{
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .container{
@@ -316,4 +323,23 @@ font-weight: 700;
         color: #2e2f42;
         text-transform: capitalize;
         margin-bottom: 8px;
+}
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main-he-portfolio{
+    margin-bottom: 72px;
+}
+
+.name-app{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.main-h-app{
+    margin-bottom: 8px;
 }
