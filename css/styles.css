@@ -112,6 +112,9 @@ background-color: #F4F4FD;
 padding: 120px 0;
 }
 
+.team .container{
+    padding: 32px 0;
+}
 .footer{
 background: #2e2f42;
 padding: 100px 0;
