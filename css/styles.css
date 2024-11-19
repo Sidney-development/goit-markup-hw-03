@@ -229,7 +229,7 @@ display: flex;
 }
 
 .top-nav-li{
-    padding: 0 24px;
+    padding: 24px 0;
 }
 
 .info-list{
@@ -300,9 +300,7 @@ border-radius: 0 0 4px 4px;
     gap: 40px;
 }
 
-.top-nav-ad-li .link-address{
-    padding: 24px 0;
-}
+
 
 
 .main-he-info .visually-hidden{
@@ -351,6 +349,4 @@ font-weight: 700;
     margin-bottom: 8px;
 }
 
-.visually-hidden{
-    visibility: hidden;
-}
+
