@@ -223,8 +223,12 @@ flex-direction: row;
 gap: 40px;   
 }
 
-.top-nav .logo{
+.top-nav {
 padding: 24px 0;
+}
+
+.top-nav-li .link{
+    padding: 24px 0;
 }
 
 .info-list{
@@ -336,4 +340,15 @@ border-top: none;
 margin-bottom: 8px;
 }
 
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+border: 0;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+}
 
