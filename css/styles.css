@@ -112,7 +112,7 @@ background-color: #F4F4FD;
 padding: 120px 0;
 }
 
-.team .container{
+.team-name{
     padding: 32px 0;
 }
 .footer{
@@ -300,6 +300,10 @@ border-radius: 0 0 4px 4px;
     gap: 40px;
 }
 
+.top-nav-ad-li{
+    padding: 24px 0;
+}
+
 
 .main-he-info .visually-hidden{
 font-weight: 700;
@@ -345,4 +349,8 @@ font-weight: 700;
 
 .main-h-app{
     margin-bottom: 8px;
+}
+
+.visually-hidden{
+    overflow: hidden;
 }
