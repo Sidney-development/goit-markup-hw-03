@@ -226,11 +226,10 @@ display: flex;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-}
-
-.top-nav-li{
     padding: 24px 0;
 }
+
+
 
 .info-list{
 display: flex;
