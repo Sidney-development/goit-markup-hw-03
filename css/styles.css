@@ -300,7 +300,7 @@ border-radius: 0 0 4px 4px;
     gap: 40px;
 }
 
-.top-nav-ad-li{
+.top-nav-ad-li .link-address{
     padding: 24px 0;
 }
 
@@ -352,5 +352,5 @@ font-weight: 700;
 }
 
 .visually-hidden{
-    overflow: hidden;
+    visibility: hidden;
 }
