@@ -52,40 +52,43 @@ ul, ol{
 
    
 .title{
-    background: #2e2f42;
-    padding: 188px 0;
+background: #2e2f42;
+padding: 188px 0;
 }
 
 .title-text{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    max-width: 496px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+max-width: 496px;
+margin-left: 342px;
+
 }
 
 .title-button{
-    background: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;    
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    min-width: 169px;
-    border: none;
+background: #4d5ae5;
+font-weight: 500;
+font-size: 16px;    
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+font-family: "Roboto", sans-serif;
+cursor: pointer;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+display: block;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+min-width: 169px;
+border: none;
+margin-left: 506px;
 }
 
 .title-button:hover,
@@ -100,11 +103,11 @@ padding: 120px 0;
 
 
 .main-text{
-    font-size: 16px; 
-    line-height: 1.5;  
-    letter-spacing: 0.02em; 
-    color: #434455;
-    text-align: center;
+font-size: 16px; 
+line-height: 1.5;  
+letter-spacing: 0.02em; 
+color: #434455;
+text-align: center;
 }
 
 .team{
@@ -131,6 +134,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+margin-right: 860px;
 }
 
 .logo{
@@ -179,7 +183,8 @@ color: #2e2f42;
 text-decoration: none;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;color: #434455;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .link:hover,
@@ -196,16 +201,6 @@ color: #404bbf;
 font-style: normal;
 }
 
-.page-container{
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-}
-
-main{
-flex-grow: 1;
-}
-
 .logo{
 display: flex;
 align-items: center;
@@ -220,34 +215,35 @@ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-gap: 40px;   
-}
-
-.top-nav {
+gap: 40px;  
 padding: 24px 0;
 }
 
 .top-nav-li .link{
-    padding: 24px 0;
+padding: 24px 0;
 }
 
 .info-list{
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
-flex-direction: column;
 gap: 24px;
 }
 
 .info-list-item{
+display: flex;
+flex-direction: column;
 width: calc((100% - 72px) / 4);
+align-items: flex-start;
+justify-content: flex-start;
+
 }
 
 .team-list{
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
+
 gap: 24px;  
 padding: 0px 0px 32px 0px;          
 }
@@ -257,7 +253,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 background: #fff;
 width: calc((100% - 72px) / 4);
 border-radius: 0 0 4px 4px;
-
+flex-direction: column;
 }
     
 .portfolio-set{
@@ -294,7 +290,10 @@ align-items: center;
 .top-nav-ad{
 display: flex;
 gap: 40px;
+margin-left: 330px;
+padding: 24px 0;
 }
+
 
 .main-he-info .visually-hidden{
 font-weight: 700;
@@ -308,6 +307,8 @@ text-transform: capitalize;
 
 .main-he-team{
 margin-bottom: 72px;
+text-align: center;
+
 }
 
 .main-h-name{
@@ -328,12 +329,17 @@ padding-bottom: 120px;
 
 .main-he-portfolio{
 margin-bottom: 72px;
+margin-left: 501px;
 }
 
 .name-app{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
+}
+
+.name-app .main-text{
+    text-align: left;
 }
 
 .main-h-app{
