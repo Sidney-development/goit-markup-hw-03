@@ -64,7 +64,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
-margin-left: 342px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -79,7 +80,6 @@ font-family: "Roboto", sans-serif;
 cursor: pointer;
 border-radius: 4px;
 padding: 16px 32px;
-width: 169px;
 height: 56px;
 display: block;
 align-items: center;
@@ -88,7 +88,9 @@ flex-direction: row;
 gap: 10px;
 min-width: 169px;
 border: none;
-margin-left: 506px;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .title-button:hover,
@@ -231,21 +233,22 @@ gap: 24px;
 }
 
 .info-list-item{
-display: flex;
-flex-direction: column;
 width: calc((100% - 72px) / 4);
-align-items: flex-start;
-justify-content: flex-start;
-
 }
 
 .team-list{
 display: flex;
 align-items: center;
 justify-content: center;
-
 gap: 24px;  
 padding: 0px 0px 32px 0px;          
+}
+
+.main-text-info {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .team-photo {
